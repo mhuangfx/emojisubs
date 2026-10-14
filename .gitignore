@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+target/
+dist/
+
+# Build outputs
+src-tauri/target/
+.tauri/
+
+# Environment
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Cache
+.cache/
+.claude/cache/
+
+# Models (large files)
+models/*.bin
+
+# Claude Code
+.claude/cache/
